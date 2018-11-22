@@ -56,7 +56,7 @@ heimdall:
             - access_token
             - client_id
     redis:
-        host: redis
+        host: 172.20.0.
         port: 6379
         maxTotal: 128
         maxIdle: 128
@@ -97,7 +97,7 @@ spring:
             INDENT_OUTPUT: true
             WRITE-DATES-AS-TIMESTAMPS: false
     rabbitmq:
-        host: rabbitmq
+        host: 172.20.0.8
         port: 5672
         #virtual-host: dev
         requested-heartbeat: 10
