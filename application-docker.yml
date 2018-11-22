@@ -36,7 +36,7 @@ heimdall:
         appName: HEIMDALL
         databaseName: heimdall
         portNumber: 5432
-        serverName: postgres
+        serverName: 172.20.0.7
         username: postgres
         password: 123456
         runLiquibase: true
