@@ -139,4 +139,4 @@ zuul:
         
 security:
     basic:
-        enabled: false
+        enabled: true
