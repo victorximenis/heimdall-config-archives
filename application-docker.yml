@@ -70,7 +70,7 @@ heimdall:
         blockWhenExhausted: true
         connectionPoolSize: 10
     security:
-        enabled: true
+        enabled: false
         ldap:
             enabled: false
             #url: ldap://your.host:port
