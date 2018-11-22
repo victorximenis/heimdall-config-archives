@@ -35,7 +35,7 @@ heimdall:
         initializationFailFast: false
         appName: HEIMDALL
         databaseName: heimdall
-        portNumber: 5433
+        portNumber: 5432
         serverName: 172.20.0.2
         username: postgres
         password: 123456
