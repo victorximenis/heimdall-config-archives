@@ -36,14 +36,14 @@ heimdall:
         appName: HEIMDALL
         databaseName: heimdall
         portNumber: 5432
-        serverName: 172.20.0.2
+        serverName: 172.20.0.6
         username: postgres
         password: 123456
         runLiquibase: true
         sendStringParametersAsUnicode: false
     mongo:
         enabled: false
-        serverName: mongo
+        serverName: 172.20.0.8
         #url: 
         port: 27017
         dataBase: logging
@@ -56,7 +56,7 @@ heimdall:
             - access_token
             - client_id
     redis:
-        host: 172.20.0.6
+        host: 172.20.0.7
         port: 6379
         maxTotal: 128
         maxIdle: 128
@@ -97,7 +97,7 @@ spring:
             INDENT_OUTPUT: true
             WRITE-DATES-AS-TIMESTAMPS: false
     rabbitmq:
-        host: 172.20.0.8
+        host: 172.20.0.5
         port: 5672
         #virtual-host: dev
         requested-heartbeat: 10
