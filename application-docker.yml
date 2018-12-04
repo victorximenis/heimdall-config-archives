@@ -36,7 +36,7 @@ heimdall:
         appName: HEIMDALL
         databaseName: heimdall
         portNumber: 5432
-        serverName: postgres-heimdall
+        serverName: postgres-heimdall-route.services.172.31.3.38.18.217.50.73.xip.io
         username: postgres
         password: 123456
         runLiquibase: true
@@ -56,7 +56,7 @@ heimdall:
             - access_token
             - client_id
     redis:
-        host: redis-heimdall
+        host: redis-heimdall-route.services.172.31.3.38.18.217.50.73.xip.io
         port: 6379
         maxTotal: 128
         maxIdle: 128
@@ -97,7 +97,7 @@ spring:
             INDENT_OUTPUT: true
             WRITE-DATES-AS-TIMESTAMPS: false
     rabbitmq:
-        host: rabbitmq-heimdall
+        host: rabbitmq-heimdall.services.172.31.3.38.18.217.50.73.xip.io
         port: 5672
         #virtual-host: dev
         requested-heartbeat: 10
